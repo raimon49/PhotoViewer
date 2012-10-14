@@ -12,7 +12,7 @@
 
 @interface AlbumMasterViewController () {
     NSMutableArray *_objects;
-    
+
     NSMutableArray *photos;
     NSMutableArray *titles;
 }
@@ -74,10 +74,10 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PhotoCell"];
-    
+
     cell.textLabel.text = [titles objectAtIndex:indexPath.row];
     cell.detailTextLabel.text = [photos objectAtIndex:indexPath.row];
-    
+
     return cell;
 }
 
