@@ -37,7 +37,7 @@
                 @"urbanoaffare.jpg", @"yokohama.jpg",
               nil];
     titles = [[NSMutableArray alloc] initWithObjects:
-                @"嵐山", @"江ノ島", @"フジヤマ", @"伏見稲荷大社",
+                @"嵐山", @"江ノ島", @"フジヤマバーガー", @"伏見稲荷大社",
                 @"鎌倉の大仏", @"二条城", @"オクトーバーフェスト", @"高飛車",
                 @"Urbano Affare", @"横浜中華街",
               nil];
