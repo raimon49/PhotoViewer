@@ -12,6 +12,9 @@
 
 @interface AlbumMasterViewController () {
     NSMutableArray *_objects;
+    
+    NSMutableArray *photos;
+    NSMutableArray *titles;
 }
 @end
 
@@ -28,8 +31,16 @@
 	// Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
 
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
+    photos = [[NSMutableArray alloc] initWithObjects:
+                @"arashiyama.jpg", @"enoshima.jpg", @"fujiyama.jpg", @"fushimiinari.jpg",
+                @"kamakura.jpg", @"nijojo.jpg", @"octoberfest.jpg", @"takabisha.jpg",
+                @"urbanoaffare.jpg", @"yokohama.jpg",
+              nil];
+    titles = [[NSMutableArray alloc] initWithObjects:
+                @"嵐山", @"江ノ島", @"フジヤマ", @"伏見稲荷大社",
+                @"鎌倉の大仏", @"二条城", @"オクトーバーフェスト", @"高飛車",
+                @"Urbano Affare", @"横浜中華街",
+              nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -57,15 +68,16 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _objects.count;
+    return photos.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-
-    NSDate *object = _objects[indexPath.row];
-    cell.textLabel.text = [object description];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PhotoCell"];
+    
+    cell.textLabel.text = [titles objectAtIndex:indexPath.row];
+    cell.detailTextLabel.text = [photos objectAtIndex:indexPath.row];
+    
     return cell;
 }
 
