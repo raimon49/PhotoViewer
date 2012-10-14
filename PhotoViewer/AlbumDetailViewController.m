@@ -31,7 +31,8 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        UIImage *newImage = [UIImage imageNamed:self.detailItem];
+        self.myPhoto.image = newImage;
     }
 }
 
