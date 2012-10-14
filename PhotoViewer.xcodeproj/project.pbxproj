@@ -19,6 +19,16 @@
 		2EF60FDC162AB0A70047C7F6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF60FDA162AB0A70047C7F6 /* MainStoryboard.storyboard */; };
 		2EF60FDF162AB0A70047C7F6 /* AlbumMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF60FDE162AB0A70047C7F6 /* AlbumMasterViewController.m */; };
 		2EF60FE2162AB0A70047C7F6 /* AlbumDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF60FE1162AB0A70047C7F6 /* AlbumDetailViewController.m */; };
+		2EF61011162AB2FA0047C7F6 /* arashiyama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EF61007162AB2FA0047C7F6 /* arashiyama.jpg */; };
+		2EF61012162AB2FA0047C7F6 /* enoshima.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EF61008162AB2FA0047C7F6 /* enoshima.jpg */; };
+		2EF61013162AB2FA0047C7F6 /* fujiyama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EF61009162AB2FA0047C7F6 /* fujiyama.jpg */; };
+		2EF61014162AB2FA0047C7F6 /* fushimiinari.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6100A162AB2FA0047C7F6 /* fushimiinari.jpg */; };
+		2EF61015162AB2FA0047C7F6 /* kamakura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6100B162AB2FA0047C7F6 /* kamakura.jpg */; };
+		2EF61016162AB2FA0047C7F6 /* nijojo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6100C162AB2FA0047C7F6 /* nijojo.jpg */; };
+		2EF61017162AB2FA0047C7F6 /* octoberfest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6100D162AB2FA0047C7F6 /* octoberfest.jpg */; };
+		2EF61018162AB2FA0047C7F6 /* takabisha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6100E162AB2FA0047C7F6 /* takabisha.jpg */; };
+		2EF61019162AB2FA0047C7F6 /* urbanoaffare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EF6100F162AB2FA0047C7F6 /* urbanoaffare.jpg */; };
+		2EF6101A162AB2FA0047C7F6 /* yokohama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EF61010162AB2FA0047C7F6 /* yokohama.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +50,16 @@
 		2EF60FDE162AB0A70047C7F6 /* AlbumMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumMasterViewController.m; sourceTree = "<group>"; };
 		2EF60FE0162AB0A70047C7F6 /* AlbumDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumDetailViewController.h; sourceTree = "<group>"; };
 		2EF60FE1162AB0A70047C7F6 /* AlbumDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumDetailViewController.m; sourceTree = "<group>"; };
+		2EF61007162AB2FA0047C7F6 /* arashiyama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arashiyama.jpg; sourceTree = "<group>"; };
+		2EF61008162AB2FA0047C7F6 /* enoshima.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = enoshima.jpg; sourceTree = "<group>"; };
+		2EF61009162AB2FA0047C7F6 /* fujiyama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fujiyama.jpg; sourceTree = "<group>"; };
+		2EF6100A162AB2FA0047C7F6 /* fushimiinari.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fushimiinari.jpg; sourceTree = "<group>"; };
+		2EF6100B162AB2FA0047C7F6 /* kamakura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kamakura.jpg; sourceTree = "<group>"; };
+		2EF6100C162AB2FA0047C7F6 /* nijojo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nijojo.jpg; sourceTree = "<group>"; };
+		2EF6100D162AB2FA0047C7F6 /* octoberfest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = octoberfest.jpg; sourceTree = "<group>"; };
+		2EF6100E162AB2FA0047C7F6 /* takabisha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = takabisha.jpg; sourceTree = "<group>"; };
+		2EF6100F162AB2FA0047C7F6 /* urbanoaffare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = urbanoaffare.jpg; sourceTree = "<group>"; };
+		2EF61010162AB2FA0047C7F6 /* yokohama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yokohama.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +106,7 @@
 		2EF60FC8162AB0A70047C7F6 /* PhotoViewer */ = {
 			isa = PBXGroup;
 			children = (
+				2EF61005162AB2DD0047C7F6 /* images */,
 				2EF60FD1162AB0A70047C7F6 /* AlbumAppDelegate.h */,
 				2EF60FD2162AB0A70047C7F6 /* AlbumAppDelegate.m */,
 				2EF60FDA162AB0A70047C7F6 /* MainStoryboard.storyboard */,
@@ -110,6 +131,23 @@
 				2EF60FD8162AB0A70047C7F6 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EF61005162AB2DD0047C7F6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2EF61007162AB2FA0047C7F6 /* arashiyama.jpg */,
+				2EF61008162AB2FA0047C7F6 /* enoshima.jpg */,
+				2EF61009162AB2FA0047C7F6 /* fujiyama.jpg */,
+				2EF6100A162AB2FA0047C7F6 /* fushimiinari.jpg */,
+				2EF6100B162AB2FA0047C7F6 /* kamakura.jpg */,
+				2EF6100C162AB2FA0047C7F6 /* nijojo.jpg */,
+				2EF6100D162AB2FA0047C7F6 /* octoberfest.jpg */,
+				2EF6100E162AB2FA0047C7F6 /* takabisha.jpg */,
+				2EF6100F162AB2FA0047C7F6 /* urbanoaffare.jpg */,
+				2EF61010162AB2FA0047C7F6 /* yokohama.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +206,16 @@
 				2EF60FD7162AB0A70047C7F6 /* Default@2x.png in Resources */,
 				2EF60FD9162AB0A70047C7F6 /* Default-568h@2x.png in Resources */,
 				2EF60FDC162AB0A70047C7F6 /* MainStoryboard.storyboard in Resources */,
+				2EF61011162AB2FA0047C7F6 /* arashiyama.jpg in Resources */,
+				2EF61012162AB2FA0047C7F6 /* enoshima.jpg in Resources */,
+				2EF61013162AB2FA0047C7F6 /* fujiyama.jpg in Resources */,
+				2EF61014162AB2FA0047C7F6 /* fushimiinari.jpg in Resources */,
+				2EF61015162AB2FA0047C7F6 /* kamakura.jpg in Resources */,
+				2EF61016162AB2FA0047C7F6 /* nijojo.jpg in Resources */,
+				2EF61017162AB2FA0047C7F6 /* octoberfest.jpg in Resources */,
+				2EF61018162AB2FA0047C7F6 /* takabisha.jpg in Resources */,
+				2EF61019162AB2FA0047C7F6 /* urbanoaffare.jpg in Resources */,
+				2EF6101A162AB2FA0047C7F6 /* yokohama.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +346,7 @@
 				2EF60FE7162AB0A70047C7F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
